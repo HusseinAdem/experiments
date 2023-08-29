@@ -19,11 +19,11 @@ public class Main {
 
         while (answer.equals("ja")) {
 
-        System.out.println("Sten, sax eller påse?: ");
-        String guess = input.nextLine();
+            System.out.println("Sten, sax eller påse?: ");
+            String guess = input.nextLine();
 
 
-        System.out.println(arr[randomNumber]);
+            System.out.println(arr[randomNumber]);
 
 
 
