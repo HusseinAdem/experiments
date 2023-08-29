@@ -14,16 +14,15 @@ public class Main {
         Random r=new Random();
         String answer = "ja";
 
+        int randomNumber=r.nextInt(arr.length);
+        String s = String.valueOf(randomNumber);
+
         while (answer.equals("ja")) {
 
         System.out.println("Sten, sax eller påse?: ");
         String guess = input.nextLine();
 
 
-
-
-        int randomNumber=r.nextInt(arr.length);
-        String s = String.valueOf(randomNumber);
         System.out.println(arr[randomNumber]);
 
 
@@ -82,7 +81,7 @@ public class Main {
 
             }
         }
-        System.out.println("hejdå!");
+        System.out.println("hejdå");
 
 
 
